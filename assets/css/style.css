@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Slab:wght@300&display=swap');;
 
 * {
     box-sizing: border-box;
@@ -7,24 +7,25 @@
     background-color: #24252A;
 }
 
-li , a , button{
-    font-family: 'Montserrat', sans-serif;
+li , a , button {
+    font-family: Roboto, sans-serif;
     font-weight: 500px;
     font-size: 16px;
-    color:#edf0f1;
+    color:#36454F;
     display:inline-block
     
     
 }
 header , ul {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items:center;
     padding: 30px 10%;
 }
 
 .logo {
     cursor: pointer;
+    margin-right:auto;
 }
 .nav_links{
     list-style: none;
@@ -46,9 +47,23 @@ button{
     border-radius: 50px;
     cursor:pointer;
     transition: all 0.3s ease 0s;
-    margin: left 20px;
+    margin-left: 20px;
 
 }
 button:hover{
     background-color: rgba(222, 184, 135, 1);
+}
+
+/* Heading and logos */
+h1, h2 {
+    font-family:Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:burlywood;
+    align-items: left;
+}
+
+#logo{
+    float:20px;
+    font-size:200%
 }
