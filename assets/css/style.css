@@ -1,45 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Slab:wght@300&display=swap');;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Slab:wght@300&display=swap');
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
+    background-color: #F1F1F1;
 }
 
+/* Heading and logos */
+h1,h2 {
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: burlywood;
+    align-items: left;
+}
+
+#logo {
+    float: 20px;
+    font-size: 200%
+}
+
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+
+header, ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+
+/* Nav links , List , button */
 li , a , button {
     font-family: Roboto, sans-serif;
     font-weight: 500px;
     font-size: 16px;
     color:#36454F;
-    display:inline-block
-    
-    
-}
-header , ul {
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    padding: 30px 10%;
+    display:inline-block; 
+    text-decoration: none;
 }
 
-.logo {
-    cursor: pointer;
-    margin-right:auto;
-}
+
 .nav_links{
     list-style: none;
 }
+
+
 .nav_links , li {
     display: inline-block;
     padding:0px 20px ;
 }
+
+
 .nav_links , li , a {
     transition: all 0.3s ease 0s;
 }
+
+
 .nav_links , li , a:hover {
     color:burlywood
 }
+
+.active {
+    border-bottom:1px solid burlywood;
+}
+
 button{
     padding: 9px 25px;
     background-color: rgba(222, 184, 135, 1);
@@ -50,20 +81,7 @@ button{
     margin-left: 20px;
 
 }
+
 button:hover{
     background-color: rgba(222, 184, 135, 1);
-}
-
-/* Heading and logos */
-h1, h2 {
-    font-family:Roboto, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color:burlywood;
-    align-items: left;
-}
-
-#logo{
-    float:20px;
-    font-size:200%
 }
