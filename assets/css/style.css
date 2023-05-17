@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Slab:wght@300&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #F1F1F1;
+    background-color: #F8F0E3;
 }
 
 /* Heading and logos */
-h1,h2 {
+h1 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: burlywood;
-    align-items: left;
+
 }
 
 #logo {
@@ -28,7 +28,7 @@ h1,h2 {
 }
 
 
-header,ul {
+header, ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,7 +37,7 @@ header,ul {
 
 
 /* Nav links , List , button */
-li,a,button {
+li , a, button {
     font-family: Roboto, sans-serif;
     font-weight: 500px;
     font-size: 16px;
@@ -52,19 +52,20 @@ li,a,button {
 }
 
 
-.nav_links,li {
+.nav_links , li {
     display: inline-block;
     padding: 0px 20px;
 }
 
 
-.nav_links,li,a {
+.nav_links , li,
+a {
     transition: all 0.3s ease 0s;
 }
 
 
-.nav_links,li,a:hover {
-    color: burlywood
+.nav_links , li , a:hover {
+    color: burlywood;
 }
 
 .active {
@@ -79,15 +80,70 @@ button {
     cursor: pointer;
     transition: all 0.3s ease 0s;
     margin-left: 20px;
-    
+
 }
 
 button:hover {
     background-color: rgba(222, 184, 135, 1);
 }
 
+/* hero img */
+
 #hero-image {
-    height:600px;
-    width:100%;
+    height: 750px;
+    width: 100%;
     background-image: url(../images/pp1-hero.jpg);
+}
+
+/* section what is , type of */
+
+#whatis-typeof {
+    height: 750px;
+}
+
+#type-about {
+    padding-top: 30px;
+    width: 33%;
+    float: inline-end;
+}
+
+
+#what-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+.what-about-heading {
+    width: 1000px;
+    height: 50%;
+    padding: 20px 20px;
+    border: 5px inset rgba(222, 184, 135, 0.2);
+    color: #36454F;
+    font-size: large;
+    font-family: Lato , sans-serif;
+    box-shadow: 2px 2px 7px 1px #36454F;
+    
+}
+
+
+.type-about-heading {
+    width: 1000px;
+    height: 50%;
+    padding: 20px 20px;
+    border: 5px inset rgba(222, 184, 135, 0.2);
+    color: #36454F;
+    font-size: large;
+    font-family: Lato , sans-serif;
+    box-shadow: 2px 2px 7px 1px #36454F;
+    display:left;
+    float:left;
+    border-collapse: separate;
+    border-spacing: 15px;
+    
+}
+
+
+.what-about-heading h2 {
+    font-family: Lato , sans-serif;
 }
