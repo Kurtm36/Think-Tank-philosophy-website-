@@ -97,53 +97,40 @@ button:hover {
 
 /* section what is , type of */
 
-#whatis-typeof {
-    height: 750px;
-}
 
-#type-about {
+
+.paragraph-container {
     padding-top: 30px;
-    width: 33%;
-    float: inline-end;
+    width: 50%;
+    margin: 0 auto;
+    height: 750%
 }
 
 
 #what-about {
     padding-top: 30px;
     width: 33%;
-    float: left;
+    margin: 0 auto;
 }
 
-.what-about-heading {
-    width: 1000px;
+.text-heading {
+    width: fit-content;
     height: 50%;
     padding: 20px 20px;
     border: 5px inset rgba(222, 184, 135, 0.2);
     color: #36454F;
     font-size: large;
     font-family: Lato , sans-serif;
-    box-shadow: 2px 2px 7px 1px #36454F;
-    
-}
-
-
-.type-about-heading {
-    width: 1000px;
-    height: 50%;
-    padding: 20px 20px;
-    border: 5px inset rgba(222, 184, 135, 0.2);
-    color: #36454F;
-    font-size: large;
-    font-family: Lato , sans-serif;
-    box-shadow: 2px 2px 7px 1px #36454F;
-    display:left;
-    float:left;
-    border-collapse: separate;
-    border-spacing: 15px;
-    
+    box-shadow: 2px 2px 7px 1px #36454F;   
 }
 
 
 .what-about-heading h2 {
     font-family: Lato , sans-serif;
+}
+
+
+#container {
+    text-align: center;
+    width: 80%;
 }
