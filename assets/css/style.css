@@ -114,10 +114,10 @@ button:hover {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 230px;
     background-color: rgba(68, 69, 70, 0.5);
-    bottom: 300px;
-    left: 5px;
+    bottom: 305px;
+    left: 100px;
     position: absolute;
 }
 
@@ -127,8 +127,7 @@ button:hover {
     letter-spacing: 5px;
     color: rgba(68, 69, 70, );;
     width: 300px;
-    height: 200px;
-    
+    height: 200px; 
     padding-bottom: 230px;
     background-color: rgba(216, 221, 224, 0);
     bottom: 305px;
@@ -183,6 +182,9 @@ button:hover {
    top: 10px;
    margin: 0 auto;
 }
+
+
+
 
 
 /* Philosopher info and container */
