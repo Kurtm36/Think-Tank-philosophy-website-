@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
 
 * {
     box-sizing: border-box;
@@ -99,12 +101,38 @@ button:hover {
 #hero-image {
     height: 750px;
     width: 100%;
-    background-image: url(../images/pp1-hero.jpg);
+    background-image: url(../images/pp1-hero.jpg) ;
+}
+
+#cover-text {
+    width: 300px;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    background-color: rgba(68, 69, 70, 0.5);
+    bottom: 300px;
+    left: 5px;
+    position: absolute;
+}
+
+#cover-text , #cover-text h2 {
+    font-family: Cinzel, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: rgba(68, 69, 70, );;
+    width: 300px;
+    height: 200px;
+    
+    padding-bottom: 230px;
+    background-color: rgba(216, 221, 224, 0);
+    bottom: 305px;
+    left: 100px;
+    position: absolute;
 }
 
 /* section what is , type of */
-
-
 
 .paragraph-container {
     padding-top: 30px;
@@ -122,10 +150,9 @@ button:hover {
 
 
 .text-heading {
-    width: 1000px;
+    width: fit-content;
     height: 50%;
     padding: 20px 20px;
-    border: 5px inset rgba(222, 184, 135, 0.2);
     color: #36454F;
     font-size: large;
     font-family: Lato, sans-serif;
@@ -135,8 +162,7 @@ button:hover {
     border-spacing: 15px;
 
 }
-
-
+  
 .what-about-heading h2 {
     font-family: Lato, sans-serif;
 }
@@ -145,6 +171,7 @@ button:hover {
     text-align: center;
 
 }
+
 
 /* Footer content */
 footer {
@@ -159,7 +186,7 @@ footer p {
     font-size: xx-large;
 }
 
-footer p>i {
+footer p > i {
     color: #36454F;
     font-size: medium;
 }
