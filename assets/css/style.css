@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
 
 
+html {
+    scroll-behavior: smooth;
+  }
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -171,6 +175,19 @@ button:hover {
     text-align: center;
 
 }
+
+.iframe-container {
+   position: relative;
+   width: 100%;
+   padding-bottom: 56.25;
+   top: 10px;
+   margin: 0 auto;
+}
+
+
+/* Philosopher info and container */
+
+
 
 
 /* Footer content */
