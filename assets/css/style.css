@@ -10,7 +10,7 @@ html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #F8F0E3;
+    background-color:rgba (248, 240, 227 , );
 }
 
 /* Heading and logos */
@@ -137,6 +137,14 @@ button:hover {
 
 /* section what is , type of */
 
+#whatis {
+    display: center;
+    justify-content: space-around;
+    align-items: column;
+    background-image:url(../images/);
+}
+
+
 .paragraph-container {
     padding-top: 30px;
     width: 50%;
@@ -183,14 +191,51 @@ button:hover {
    margin: 0 auto;
 }
 
-
+.left-image-container {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../images/left-bust.jpg);
+}
 
 
 
 /* Philosopher info and container */
 
+.philosopher-info-container  {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 300px;
+   background-color: aqua;
+}
+
+.box  {
+    width: 90%;
+    height: 50%;
+    background-color: aqua;
+    margin: 0 auto;
+    border: solid; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
+
+.box img {
+    width: 35%;
+    height:5%;
+    margin: 10px;
+    padding: 10px;
+    bottom: 20px;
+    
+
+}
+ 
+
+.centered-text  {
+    text-align: center;
+}
 
 /* Footer content */
 footer {
