@@ -179,7 +179,7 @@ button:hover {
 
 .box h2 {
     text-align: center;
-    font-family: Roboto , sans-serif;
+    font-family: Lato , sans-serif;
     color:#36454F;
 }
 
@@ -188,12 +188,13 @@ button:hover {
 .box  {
     width: 80%;
     height: 40%;
-    margin: 0 auto;
+    margin: 65px;
     border: 2px solid rgba(54,69,79,0.0);
     display: flex;
     justify-content: space-between;
     font-family: Lato , sans-serif;
     font-size: large;
+    
     
    
 }
@@ -211,17 +212,17 @@ img {
     height: 25%;
     margin: 10px;
     padding: 10px;
-    bottom: 20px; 
-    border: 2px solid;
+    border: 2px inset rgba(54,69,79,0.5);
     display: flex;
-    justify-content: ;
+    justify-content: center;
 }
  
 .centered-text {
     text-align: center;
     font-family: Roboto , sans-serif;
     text-decoration: underline;
-    color: #36454F;
+    color:#36454F;
+    margin:inherit;
 }
 
 
@@ -258,4 +259,9 @@ footer p > i {
     margin: 0 auto;
     padding: 5%;
 
+}
+
+/* Media queries */
+@media screen and (max-width:1200px){
+    
 }
