@@ -24,7 +24,7 @@
                 <li><a href="#western-eastern">Western and Eastern Philosophers</a>
                 </li>
             </ul>
-            <a class="cta" href="#"><button>Contact</button></a>
+            <a href="contact.html"><button onclick="redirectToContactPage()">Contact</button></a>
         </nav>
     </header>
     <section>
@@ -34,6 +34,7 @@
         </div>
     </section>
     <main id="container">
+    <!--What/Types of Philosophy-->
         <section id="whatis-typeof">
                 <div class="paragraph-container">
                     <div class="text-heading">
@@ -110,6 +111,7 @@
                     </div>
                 </div>   
         </section>
+    <!--Western and Eastern Philosopher section -->
         <section id="western-eastern">
             <h2 class="centered-text">Western Philosophers</h2>
             <div class="philosophers-info text-heading ">
@@ -229,6 +231,7 @@
                     </div>        
             </div>
         </section>
+     <!--footer-->
         <footer>
             <ul class="social-networks">
                 <li>
@@ -258,5 +261,10 @@
 
 <!--Font awesome-->
 <script src="https://kit.fontawesome.com/5e17a4b9ec.js" crossorigin="anonymous"></script>
-
+<!--Java Script script for redirection Button-->
+<script>
+    function redirectToContactPage() {
+    window.location.href = "contact.html"; 
+}
+</script>
 </html>

@@ -34,8 +34,7 @@ h1 {
 }
 
 
-header,
-ul {
+header, ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,8 +64,7 @@ li, a, button {
 }
 
 
-.nav_links , li,
-a {
+.nav_links , li, a {
     transition: all 0.3s ease 0s;
 }
 
