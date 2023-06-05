@@ -88,7 +88,7 @@ button {
     cursor: pointer;
     transition: all 0.3s ease 0s;
     margin-left: 20px;
-
+    margin-right: 20px;
 }
 
 button:hover {
@@ -114,12 +114,13 @@ button:hover {
     font-family: Cinzel, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: rgba(68, 69, 70, 1 );
-    width: 300px; 
+    color: #2d2d2b;
+    width: fit-content; 
     background-color: transparent;
     top: 10px;
     left: 135px;
     position: absolute;
+    text-shadow: 2px 2px #fffff2;
 }
 
 /* section what is , type of */
@@ -273,7 +274,8 @@ footer p > i {
     padding: 30px;
     font-family: Lato , sans-serif;
     font-size: large;
-    border: outset burlywood
+    border: outset burlywood;
+    box-shadow: 2px 2px rgba(60, 60, 60, 0.6);
 }
 
 .input-text {
