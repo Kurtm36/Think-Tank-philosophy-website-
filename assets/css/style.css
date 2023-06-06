@@ -129,18 +129,9 @@ button:hover {
     padding-top: 30px;
     width:50%;
     margin: 0 auto;
-    height: 750%;
+    height: fit-content;
     
 }
-
-
-
-#what-about {
-    padding-top: 30px;
-    width: 33%;
-    margin: 0 auto;
-}
-
 
 .text-heading {
     width: fit-content;
@@ -156,11 +147,6 @@ button:hover {
 
 }
   
-.what-about-heading h2 {
-    font-family: Lato, sans-serif;
-}
-
-
 iframe {
     width: 100%;
 }
@@ -307,3 +293,50 @@ input:focus, textarea {
 .submit-button:hover {
     color: #fffff2;
 }
+
+/* media queries /*
+
+/* for larger to medium screen size from 1200px wide and down */
+
+@media screen and (max-width: 1200px){
+    /* Header , Nav and hero */
+  
+    
+    .nav_links {
+        display: flex;
+        justify-content:space-evenly;
+    }
+
+    #hero-image {
+        width:100%;
+    }
+    
+    /* Paragraph-container, text-heading iframe */
+
+    .paragraph-container{
+        width:80%;
+    }
+
+    .text-heading {
+        width: 100%;
+    }
+
+    /* Philosopher section , box and imgs */
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    img {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* footer icon */
+    .social-networks {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+}   
