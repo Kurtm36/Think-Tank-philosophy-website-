@@ -222,7 +222,6 @@ img {
     margin:inherit;
 }
 
-
 /* Footer content */
 footer {
     height: 150px;
@@ -242,9 +241,9 @@ footer p > i {
     font-size: medium;
 }
 
-
 .social-networks {
     text-align: center;
+    
 }
 
 .social-networks>li {
@@ -255,14 +254,9 @@ footer p > i {
     font-size: 400%;
     margin: 0 auto;
     padding: 5%;
-
+    
 }
 /* sign up form */
-.div-form {
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-}
 
 .sign-up-form {
     margin: 150px 10% 0 0;
