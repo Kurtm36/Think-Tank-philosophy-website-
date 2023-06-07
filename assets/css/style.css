@@ -14,21 +14,22 @@ body {
 }
 
 /* Heading and logos */
-h1 {
+header  div a {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: burlywood;
-
+    font-size: xx-large;
+    
 }
 
 #logo {
     float: 20px;
-    font-size: 200%
+    font-size: 00%
 }
 
 
-.logo {
+#logo {
     cursor: pointer;
     margin-right: auto;
 }
@@ -340,3 +341,52 @@ input:focus, textarea {
         
     }
 }   
+
+/* for medium screen sizes from 950px and down */
+
+@media screen and (max-width: 950px){
+    .logo{
+        display: flex;
+        flex-direction: ;
+    }
+
+    #hero-image {
+        width:100%;
+    }
+    
+    /* Paragraph-container, text-heading iframe */
+
+    .paragraph-container{
+        width:80%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-heading {
+        width: 100%;
+    }
+
+    /* Philosopher section , box and imgs */
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    img {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* footer icon */
+    .social-networks {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+}
+
+/* Mobile devies */
+@media only screen and (max-width: 767px) {
+    
+}
