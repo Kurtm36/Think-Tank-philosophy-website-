@@ -10,7 +10,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color:#fffff2;
+    background-color:#f0ebd8;
 }
 
 /* Heading and logos */
@@ -37,7 +37,7 @@ header  div a {
 
 header, ul {
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
     align-items: center;
     position: relative;
 }
@@ -55,9 +55,11 @@ li, a, button {
 
 }
 
-.navbar {
+.navbar li {
     max-width: 1200px;
     flex-direction:row;
+    display: inline;
+
 }
 
 .nav_links {
@@ -129,23 +131,28 @@ button:hover {
 
 /* section what is , type of */
 
+#whatis-typeof {
+    background-color:#f0ebd8
+    
+}
+
 .paragraph-container {
     
     width:50%;
     margin: 0 auto;
-    height:fit-content;
+    height:25%;
     display:flex;
     justify-content: space-between;
 }
 
 .text-heading {
-    width: fit-content;
+    width: 90%;
     height: 50%;
-    padding: 20px ;
+    padding: 10px ;
     color: #36454F;
     font-size: large;
     font-family: Lato, sans-serif;
-    display: left;
+    display: center;
     margin: 0 auto;
     border-collapse: separate;
     border-spacing: 15px;
@@ -168,7 +175,7 @@ iframe {
 /* Philosopher info and container */
 
 .philosophers-info {
-    margin: 0 auto;
+    
     text-align: center;
 }
 
@@ -183,13 +190,12 @@ iframe {
 .box  {
     width: 80%;
     height: 40%;
-    margin: 10px;
     border: 2px solid rgba(54,69,79,0.4);
     display: flex;
     justify-content: space-between;
     font-family: Lato , sans-serif;
     font-size: x-large;
-    padding: 10px;
+    
 }
 
 .box div {
@@ -216,12 +222,13 @@ img {
     text-decoration: underline;
     color:#36454F;
     margin: 10px;
-    
+    right:20px;
 }
 
 /* Footer content */
 footer {
     height: 150px;
+    background: #f0ebd8;
 }
 
 footer p {
@@ -244,7 +251,7 @@ footer p > i {
 }
 
 .social-networks>li {
-    display: inline;
+    
 }
 
 .social-networks i {
@@ -408,10 +415,6 @@ input:focus, textarea {
 /* Mobile devies 480px down */
 @media screen and (max-width: 480px){
     /* header logo , nav */
-    header div {
-        left:20px;
-    }
-    
     header  div a {
         font-family: Roboto, sans-serif;
         font-size: 30px;
@@ -435,7 +438,7 @@ input:focus, textarea {
     
     #hero-image {
         width:100%;
-        height: 470px;
+        height:300px;
     }
     #cover-text {
         width: 300px;
@@ -444,41 +447,17 @@ input:focus, textarea {
     }
     
     #cover-text {
-        top:20px;
-        left:20px
+        top:10px;
+        left:10px
     }
-
-    /* paragraph container , text-heading */
-
-   
+       
 
     /* box , img and iframe*/
     .box {
-        padding: ;
-        margin: 5px;
-        display: flex;
-        justify-content: space-evenly;
+        display: flexbox;
+        justify-content: flex-start;
     }
-
-    /* footer */
-    .social-networks {
-        font-size: small;
-        margin: 0 auto;
-        right:35px;
-    }
-    li, a, button {
-        font-family: Roboto, sans-serif;
-        font-weight: 10px;
-        font-size: 10px;
-        color: #36454F;
-        text-decoration: none;
-        display: center;
-        justify-content: center;
-    }
-    .social-networks i {
-        left: 20px;
-    }
-
+}
 
 
 
