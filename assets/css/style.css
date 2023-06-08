@@ -37,7 +37,7 @@ header  div a {
 
 header, ul {
     display: flex;
-    justify-content:flex-start;
+    justify-content:center;
     align-items: center;
     position: relative;
 }
@@ -240,17 +240,15 @@ footer p {
     text-align: center;
 }
 
-footer p > i {
+footer p i {
     color: #36454F;
     font-size: medium;
-}
-
-.social-networks {
-    text-align: center;
     
 }
 
-.social-networks>li {
+.social-networks ul {
+    text-align: center;
+    display: center;
     
 }
 
@@ -352,9 +350,15 @@ input:focus, textarea {
     }
 
     /* footer icon */
-    .social-networks {
-        display: flex;
-        justify-content: space-between;
+    li, a, button {
+        font-family: Roboto, sans-serif;
+        font-weight: 100px;
+        font-size: 10px;
+        color: #36454F;
+        text-decoration:none;
+        display: center;
+        justify-content: center;
+        position: relative;
         
     }
 }   
@@ -404,12 +408,7 @@ input:focus, textarea {
         justify-content: center;
     }
 
-    /* footer icon */
-    .social-networks {
-        display: flex;
-        justify-content: space-between;
-        
-    }
+
 }
 
 /* Mobile devies 480px down */
@@ -422,12 +421,14 @@ input:focus, textarea {
 
     li, a, button {
         font-family: Roboto, sans-serif;
-        font-weight: 500px;
-        font-size: 15px;
+        font-weight: 100px;
+        font-size: 10px;
         color: #36454F;
         text-decoration:none;
-        display: row;
-        justify-content: space-evenly;
+        display: center;
+        justify-content: center;
+        position: relative;
+        
     }
     
     button {
@@ -454,8 +455,18 @@ input:focus, textarea {
 
     /* box , img and iframe*/
     .box {
-        display: flexbox;
+        display: flex;
         justify-content: flex-start;
+    }
+    
+    li {
+        padding-right:5px;
+        right: 35px;
+    }
+
+    .iframe {
+        width: 400px;
+        height: 200px;
     }
 }
 
