@@ -13,6 +13,12 @@ body {
     margin: 0;
     padding: 0;
     background-color:#f0ebd8;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
 }
 
 /* Heading and logos */
@@ -231,6 +237,7 @@ img {
 footer {
     height: 100px;
     background: #f0ebd8;
+    margin-top: auto;
 }
 
 footer p {
@@ -265,7 +272,7 @@ footer p i {
 .sign-up-form {
     margin: 150px 10% 0 0;
     color: #fff;
-    background-color:rgba(60, 60, 60, 0.9);
+    background-color:rgb(60, 60, 60);
     max-width: 400px;
     position: absolute;
     left: 5%;
@@ -492,23 +499,24 @@ input:focus, textarea {
         
     }
     
-    footer ul  {
+    footer i  {
         padding-right:5px;
         right: 35px;
         color: rgb(60, 60, 60);
-        display:;
+        position: relative;
+        top: 35px;
     }
     .social-networks i {
         font-size: 200%;
-        top:20px;
+        top:30px;
         position: absolute;
         
     }
     .sign-up-form {
         background-color:rgb(60, 60, 60);
         top:25px ;
-        width:300px;
-        height: 426px;
+        position: absolute;
+        margin-top: 100px;
     }
 }
 
