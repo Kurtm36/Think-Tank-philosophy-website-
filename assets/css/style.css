@@ -39,22 +39,26 @@ header, ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 0px;
-    padding-left: 135px;
+    position: relative;
 }
 
 
 
-/* Nav links , List , button */
+/*  Nav Bar , Nav links , List , button */
 li, a, button {
     font-family: Roboto, sans-serif;
     font-weight: 500px;
-    font-size: 16px;
+    font-size: 1rem;
     color: #36454F;
     display: inline-block;
     text-decoration: none;
+
 }
 
+.navbar {
+    max-width: 1200px;
+    flex-direction: row;
+}
 
 .nav_links {
     display:flex;
@@ -127,17 +131,18 @@ button:hover {
 /* section what is , type of */
 
 .paragraph-container {
-    padding-top: 30px;
+    
     width:50%;
     margin: 0 auto;
-    height: fit-content;
-    
+    height:fit-content;
+    display:flex;
+    justify-content: space-between;
 }
 
 .text-heading {
     width: fit-content;
     height: 50%;
-    padding: 20px 20px;
+    padding: 20px ;
     color: #36454F;
     font-size: large;
     font-family: Lato, sans-serif;
@@ -163,6 +168,11 @@ iframe {
 
 /* Philosopher info and container */
 
+.philosophers-info {
+    margin: 0 auto;
+    text-align: center;
+}
+
 .box h2 {
     text-align: center;
     font-family: Lato , sans-serif;
@@ -174,13 +184,13 @@ iframe {
 .box  {
     width: 80%;
     height: 40%;
-    margin: 65px;
+    margin: 10px;
     border: 2px solid rgba(54,69,79,0.4);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     font-family: Lato , sans-serif;
     font-size: x-large;
-    padding: 20px;
+    padding: 10px;
 }
 
 .box div {
@@ -206,7 +216,8 @@ img {
     font-family: Lato , sans-serif;
     text-decoration: underline;
     color:#36454F;
-    margin:inherit;
+    margin: 10px;
+    
 }
 
 /* Footer content */
@@ -234,7 +245,7 @@ footer p > i {
 }
 
 .social-networks>li {
-    flex: inline;
+    display: inline;
 }
 
 .social-networks i {
@@ -304,8 +315,8 @@ input:focus, textarea {
   
     
     .nav_links {
-        display: flex;
-        justify-content:space-evenly;
+        flex-direction: column;
+        justify-content:space-between;
     }
 
     #hero-image {
@@ -345,9 +356,18 @@ input:focus, textarea {
 /* for medium screen sizes from 950px and down */
 
 @media screen and (max-width: 950px){
+    .nav_links {
+        display: inline;
+    }
+    
     .logo{
         display: flex;
-        flex-direction: ;
+        flex-direction: row ;
+    }
+
+    button {
+        padding: 5px 15px;
+        margin-left: 366px;
     }
 
     #hero-image {
@@ -389,4 +409,4 @@ input:focus, textarea {
 /* Mobile devies */
 @media only screen and (max-width: 767px) {
     
-}
+} 
