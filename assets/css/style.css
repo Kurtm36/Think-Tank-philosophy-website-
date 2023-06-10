@@ -323,9 +323,9 @@ input:focus, textarea {
 
 /* for larger to medium screen size from 1200px wide and down */
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1280px){
     /* Header , Nav and hero */
-  
+    
     
     .nav_links {
         flex-direction: column;
