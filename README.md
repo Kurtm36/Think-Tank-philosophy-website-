@@ -19,6 +19,7 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 <hr>
 
 ## First Time User Goals 
+<ul>
 
 <li>As a first time visitor: I want to understand theme and topic of the website, so I can learn more about the subject.
 
@@ -40,12 +41,62 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 <br>
 
+<hr>
+
 ## Features
 
-### Home page 
- 
 
 
+## Home page
+
+<li> Navigation
+
+- Postioned at the top of the page.
+- Contains Logo positioned on the left.
+- At the right hand side , there are navigation links.
+    - Home - leads to homepage.
+    - What is Philosopy - leads to text and video of the topic.
+    - Westen and Eastern Philsopohers - leads to reading content on ancient philosophers.
+    - Contact - Leads to a contact page , where users can sign up.
+- The location of the user on the website is underlined.
+- The links have animated hover effect.
+- The navigation is clear and easy to understand for the user.
+- The navigation bar is responsive and appears on mobile devices. 
+<hr>
+
+![Think Tank navigation bar ](assets\images\desktop-navi-bar.png)
+![Think Tank mobile column bar ](assets\images\mobile-column-navi-bar.png)
+![Think Tank mobile inline bar ](assets\images\mobile-inline-navi-bar.png)
+
+<hr>
+
+<li> Hero Section
+
+- Hero image is clear and non pixelated 
+
+ ![Think Tank Hero Image ](assets\images\pp1-hero.jpg)
 
 
+- Hero image has a cover-text quote from a philosopher on each page.
 
+![Socrates quote (Wonder is the beginning of wisdow)](assets\images\socrates-quote.png)
+![Diogenes quote (The foundation of every state is the education of its youth) ](assets\images\diogenes-quote.png)
+![Plato quoute (Ideas are the source of all things) ](assets\images\plato-quote.png)
+
+<hr>
+
+## What is Philosophy Section
+
+<li> Content goals
+
+- Clear and concise answer as to what the subject is about .
+
+![What is section ](assets\images\what-is-section.png)
+
+- - Video related to the topic at hand. [What is Philosophy (Author:The School of Life)](https://www.youtube.com/watch?v=mIYdx6lDDhg)
+<hr>
+
+- Clear and concise explanation as to the differences between Western and Eastern philosophy.
+  
+![Western and Eastern section ](assets\images\western-eastern-section.png)
+  
