@@ -159,7 +159,8 @@ button:hover {
 }
   
 iframe {
-    width: 100%;
+    width:900px; 
+    height:450px;
 }
 
 .iframe-container {
@@ -337,6 +338,9 @@ input:focus, textarea {
         width: 100%;
     }
 
+    iframe {
+        width: 80%;
+    }
     /* Philosopher section , box and imgs */
 
     .box {
@@ -408,7 +412,7 @@ input:focus, textarea {
         margin-inline: 35px;
     }  
 
-    /* Philosopher section , box and imgs */
+    /* Philosopher section , box , iframe and imgs */
 
     .box {
         flex-direction: column;
@@ -418,6 +422,10 @@ input:focus, textarea {
     img {
         display: flex;
         justify-content: center;
+    }
+
+    iframe {
+        width: 80%;
     }
 
     /* sign up form */
@@ -474,6 +482,10 @@ input:focus, textarea {
     .box {
         display: flex;
         justify-content: flex-start;
+    }
+
+    iframe {
+        width: 100%;
     }
     /* footer */
     footer {
