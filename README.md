@@ -85,7 +85,7 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 <hr>
 
-## What is Philosophy Section
+## What is / Western-Eastern Philosophy Section
 
 <li> Content goals
 
@@ -93,10 +93,77 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 ![What is section ](assets\images\what-is-section.png)
 
-- - Video related to the topic at hand. [What is Philosophy (Author:The School of Life)](https://www.youtube.com/watch?v=mIYdx6lDDhg)
+-  Video related to the topic at hand. [What is Philosophy (Author:The School of Life)](https://www.youtube.com/watch?v=mIYdx6lDDhg)
 <hr>
 
 - Clear and concise explanation as to the differences between Western and Eastern philosophy.
   
 ![Western and Eastern section ](assets\images\western-eastern-section.png)
-  
+
+<hr>
+
+## Philosopher Section 
+
+- Clear and concise explanation of who the anicent philosophers
+- Quick summary of the philosophers history and their philosophical topics and concepts  
+- Non compressed and clear images  
+
+![Western section ](assets\images\western-section.png)
+![Eastern section ](assets\images\eastern-section.png)
+
+<hr>
+
+## Contact Page
+
+- All text input fields are customized.
+- Allow the user to stay updated on subjects that they will be interested in
+- To allow the user to sign up and recieve a monthly newsletter relating to philosophy 
+- Design a sign up form inline with the website color and theme 
+
+![Sign up form ](assets\images\sign-up-form.png)
+
+- Once user has submitted the form , display a thank you message informing them about the website status
+
+![Eastern section ](assets\images\thank-you-msg.png)
+
+<hr>
+
+## Footer 
+
+- Prompt the user to engage with the website on other social medias i.e Facebook , Twitter , Instagram , Twitter.
+
+- When user hovers who icons display a hover effect. 
+
+- Follow the color and theme of website in regards to footer styling. 
+
+- Display logo on footer.
+
+![Alt text](assets\images\footer.png)
+![Alt text](assets\images\footer-hoover.png)
+
+<hr>
+
+## Testing
+
+- I tested that the website works in different browsers: Firefox , Opera , Chrome.
+- I used [Responsive Website Design Tester](https://responsivedesignchecker.com/) to confirm that the website is responsive , looks and fuctions to all standard screen sizes. 
+- Tested all links and can confirm that all of them work and lead where they should lead.
+
+## Bugs 
+
+- Solved Bugs 
+    - Footer not being sticky : fixed it my using a min-height: 100vh; on the body aswell as margin-top: auto; on the footer
+    - Footer icon positioning changing : Fixed it by making footer icons centered 
+    - Navigation bar not being responsive : fixed it by using display: inline and set media queries with display: flex; justify-content: column/inline
+    - Making Images responsive : To make the images responsive I had to use flex-direction: column; justify-content: space-between; .
+
+- Unsolved Bugs 
+  - Positioning of philosopher infomation content container aren't all the same sizes due to images
+
+<hr>
+
+## Validator testing 
+
+<li> HTML
+
+    
