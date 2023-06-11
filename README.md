@@ -155,7 +155,6 @@ Think Tank is an online platform that aims to explore and delve into the fascina
     - Footer not being sticky : fixed it my using a min-height: 100vh; on the body aswell as margin-top: auto; on the footer
     - Footer icon positioning changing : Fixed it by making footer icons centered 
     - Navigation bar not being responsive : fixed it by using display: inline and set media queries with display: flex; justify-content: column/inline
-    
 
 - Unsolved Bugs 
   -
