@@ -108,8 +108,8 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 - Quick summary of the philosophers history and their philosophical topics and concepts  
 - Non compressed and clear images  
 
-![Western section ](assets\images\western-section.png)
-![Eastern section ](assets\images\eastern-section.png)
+![Western section ](assets\images\western-philosopher-section.png)
+![Eastern section ](assets\images\eastern-philosopher-section.png)
 
 <hr>
 

@@ -7,19 +7,16 @@ html {
     background-color: #f0ebd8;
 
   }
-
 body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color:#f0ebd8;
-
     min-height: 100vh;
-
     display: flex;
     flex-direction: column;
-
 }
+
 
 /* Heading and logos */
 header  div a {
@@ -30,12 +27,6 @@ header  div a {
     font-size: xx-large;
     
 }
-
-#logo {
-    float: 20px;
-    font-size: 00%
-}
-
 
 #logo {
     cursor: pointer;
@@ -149,7 +140,7 @@ button:hover {
     width:50%;
     margin: 0 auto;
     height:25%;
-    display:flex;
+     display:flex;
     justify-content: space-between;
 }
 
@@ -196,13 +187,13 @@ iframe {
 
 
 .box  {
-    width: 80%;
+  /*  width: 80%; */
     height: 40%;
-    border: 2px solid rgba(54,69,79,0.4);
     display: flex;
     justify-content: space-between;
     font-family: Lato , sans-serif;
     font-size: x-large;
+    padding: 10px;
     
 }
 
