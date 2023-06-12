@@ -152,12 +152,12 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 ## Bugs 
 
 - Solved Bugs 
-    - Footer not being sticky : fixed it my using a min-height: 100vh; on the body aswell as margin-top: auto; on the footer
     - Footer icon positioning changing : Fixed it by making footer icons centered 
     - Navigation bar not being responsive : fixed it by using display: inline and set media queries with display: flex; justify-content: column/inline
+  
 
 - Unsolved Bugs 
-  - The element (</a>) must not appear as a descendant of the <button> element.
+  - None as of yet.
 
 <hr>
 
@@ -165,9 +165,46 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 <li> HTML
 
-- I 
+- I ran my code through [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkurtm36.github.io%2Fphilosophy-website%2F)
 
+![HTML validator](assets\images\html-checker.png)
 
-- I ran my code through [Jigsaw](https://jigsaw.w3.org/css-validator/validator) CSS validator and recieved no errors 
+<li>CSS
 
-![CSS validator](assets\images\css-validator.png)
+- I ran my code through [Jigsaw ](https://jigsaw.w3.org/css-validator/validator) CSS validator and recieved no errors 
+
+![CSS validator](assets\images\css-checker.png)
+
+<li>Accessibility and Performance
+
+- I used Lighthouse in chrome devtools to confirm that the website is performing well and is accessible for all users.
+
+![Lighthouse validator](assets\images\lighthouse.png)
+
+<hr>
+
+## Deployment
+
+<li>The website was deployed to GitHub pages and can be accessed by these links:
+
+- [Think Tank ](https://kurtm36.github.io/philosophy-website/) 
+
+- https://kurtm36.github.io/philosophy-website/index.html
+
+<hr>
+
+<li> Credits 
+
+- I used the code to make social the media footer , links and icons  from the Code Institute Love Running project and modified it to fit my website .
+
+- I took inspiration and learned about designing a responsive nav bar from:   [Skillthrive CSS Tutorial: 3 Ways to Create a Navigation Bar with Flexbox](https://www.youtube.com/watch?v=PwWHL3RyQgk)
+
+<li> Media
+
+- I used [pexels](https://www.pexels.com/) for my images.
+
+<hr>
+
+## Kurt McGoona 
+
+upload date : 6/12/2023
