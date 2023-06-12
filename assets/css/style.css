@@ -85,7 +85,7 @@ li, a, button {
     border-bottom: 1px solid burlywood;
 }
 
-button {
+.contact-button {
     padding: 9px 25px;
     background-color: rgba(222, 184, 135, 1);
     border: none;
@@ -448,7 +448,7 @@ input:focus, textarea {
         position: relative;
     }
     
-    button {
+    a {
         margin: 5px;
         left: 30px;
 

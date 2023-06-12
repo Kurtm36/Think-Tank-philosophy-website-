@@ -138,8 +138,8 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 - Display logo on footer.
 
-![Alt text](assets\images\footer.png)
-![Alt text](assets\images\footer-hoover.png)
+![Footer](assets\images\footer.png)
+![Footer with hover effect](assets\images\footer-hoover.png)
 
 <hr>
 
@@ -157,7 +157,7 @@ Think Tank is an online platform that aims to explore and delve into the fascina
     - Navigation bar not being responsive : fixed it by using display: inline and set media queries with display: flex; justify-content: column/inline
 
 - Unsolved Bugs 
-  -
+  - The element (</a>) must not appear as a descendant of the <button> element.
 
 <hr>
 
@@ -165,4 +165,9 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 <li> HTML
 
-    
+- I 
+
+
+- I ran my code through [Jigsaw](https://jigsaw.w3.org/css-validator/validator) CSS validator and recieved no errors 
+
+![CSS validator](assets\images\css-validator.png)
