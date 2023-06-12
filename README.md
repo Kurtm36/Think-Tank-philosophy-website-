@@ -6,7 +6,7 @@
 
 Think Tank is an online platform that aims to explore and delve into the fascinating world of philosophy. This website provides a curated collection of philosophers, their history as well as their teachings related to various philosophical topics.
 
-![Mobile Responsiveness Image](assets\images\am-i-responsive.png)
+![Mobile Responsiveness Image](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/am-i-responsive.png)
 <hr>
 
 ## Technologies used 
@@ -64,9 +64,9 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 - The navigation bar is responsive and appears on mobile devices. 
 <hr>
 
-![Think Tank navigation bar ](assets\images\desktop-navi-bar.png)
-![Think Tank mobile column bar ](assets\images\mobile-column-navi-bar.png)
-![Think Tank mobile inline bar ](assets\images\mobile-inline-navi-bar.png)
+![Think Tank navigation bar ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/desktop-navi-bar.png)
+![Think Tank mobile column bar ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/mobile-column-navi-bar.png)
+![Think Tank mobile inline bar ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/mobile-inline-navi-bar.png)
 
 <hr>
 
@@ -74,14 +74,14 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 - Hero image is clear and non pixelated 
 
- ![Think Tank Hero Image ](assets\images\pp1-hero.jpg)
+ ![Think Tank Hero Image ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/pp1-hero.jpg)
 
 
 - Hero image has a cover-text quote from a philosopher on each page.
 
-![Socrates quote (Wonder is the beginning of wisdow)](assets\images\socrates-quote.png)
-![Diogenes quote (The foundation of every state is the education of its youth) ](assets\images\diogenes-quote.png)
-![Plato quoute (Ideas are the source of all things) ](assets\images\plato-quote.png)
+![Socrates quote (Wonder is the beginning of wisdow)](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/socrates-quote.png)
+![Diogenes quote (The foundation of every state is the education of its youth) ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/diogenes-quote.png)
+![Plato quoute (Ideas are the source of all things) ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/plato-quote.png)
 
 <hr>
 
@@ -91,14 +91,14 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 - Clear and concise answer as to what the subject is about .
 
-![What is section ](assets\images\what-is-section.png)
+![What is section ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/what-is-section.png)
 
 -  Video related to the topic at hand. [What is Philosophy (Author:The School of Life)](https://www.youtube.com/watch?v=mIYdx6lDDhg)
 <hr>
 
 - Clear and concise explanation as to the differences between Western and Eastern philosophy.
   
-![Western and Eastern section ](assets\images\western-eastern-section.png)
+![Western and Eastern section ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/western-eastern-section.png)
 
 <hr>
 
@@ -108,8 +108,9 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 - Quick summary of the philosophers history and their philosophical topics and concepts  
 - Non compressed and clear images  
 
-![Western section ](assets\images\western-philosopher-section.png)
-![Eastern section ](assets\images\eastern-philosopher-section.png)
+![Western section ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/western-philosopher-section.png)
+![Eastern section ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/eastern-philosopher-section.png)
+
 
 <hr>
 
@@ -120,11 +121,11 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 - To allow the user to sign up and recieve a monthly newsletter relating to philosophy 
 - Design a sign up form inline with the website color and theme 
 
-![Sign up form ](assets\images\sign-up-form.png)
+![Sign up form ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/sign-up-form.png)
 
 - Once user has submitted the form , display a thank you message informing them about the website status
 
-![Thank you message section ](assets\images\thank-you-msg.png)
+![Thank you message section ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/thank-you-msg.png)
 
 <hr>
 
@@ -138,8 +139,8 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 - Display logo on footer.
 
-![Footer](assets\images\footer.png)
-![Footer with hover effect](assets\images\footer-hoover.png)
+![Footer](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/footer.png)
+![Footer with hover effect](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/footer-hoover.png)
 
 <hr>
 
@@ -167,19 +168,19 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 - I ran my code through [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkurtm36.github.io%2Fphilosophy-website%2F)
 
-![HTML validator](assets\images\html-checker.png)
+![HTML validator](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/html-checker.png)
 
 <li>CSS
 
 - I ran my code through [Jigsaw ](https://jigsaw.w3.org/css-validator/validator) CSS validator and recieved no errors 
 
-![CSS validator](assets\images\css-checker.png)
+![CSS validator](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/css-checker.png)
 
 <li>Accessibility and Performance
 
 - I used Lighthouse in chrome devtools to confirm that the website is performing well and is accessible for all users.
 
-![Lighthouse validator](assets\images\lighthouse.png)
+![Lighthouse validator](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/lighthouse.png)
 
 <hr>
 
@@ -207,4 +208,4 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 ## Kurt McGoona 
 
-upload date : 6/12/2023
+##### upload date : 6/12/2023
