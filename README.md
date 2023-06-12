@@ -18,7 +18,7 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 </UL>
 <hr>
 
-## First Time User Goals 
+## User  Stories
 <ul>
 
 <li>As a first time visitor: I want to understand theme and topic of the website, so I can learn more about the subject.
@@ -68,13 +68,18 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 <br>
 
-![Think Tank mobile column bar ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/mobile-column-navi-bar.png)
+![Think Tank mobile pyramid bar ](assets\images\mobile-pyramid-bar.png)
 
 <br>
 
-![Think Tank mobile inline bar ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/mobile-inline-navi-bar.png)
+![Think Tank mobile pyramid responsiveness bar ](assets\images\mobile-pyramid-1.png)
+
+<br>
+
+![Think Tank mobile pyramid bar ](assets\images\mobile-inline.png)
 
 <hr>
+
 
 <li> Hero Section
 
@@ -139,7 +144,7 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 - Prompt the user to engage with the website on other social medias i.e Facebook , Twitter , Instagram , Twitter.
 
-- When user hovers on icons , display a hover effect. 
+- When user hovers on icons , displays a hover effect. 
 
 - Follow the color and theme of website in regards to footer styling. 
 
@@ -178,7 +183,7 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 <li>CSS
 
-- I ran my code through [Jigsaw ](https://jigsaw.w3.org/css-validator/validator) CSS validator and recieved no errors 
+- I ran my code through [Jigsaw ](https://jigsaw.w3.org/css-validator/) CSS validator and recieved no errors 
 
 ![CSS validator](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/css-checker.png)
 
@@ -213,5 +218,3 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 <hr>
 
 ## Kurt McGoona 
-
-##### upload date : 6/12/2023

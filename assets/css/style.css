@@ -319,8 +319,10 @@ input:focus, textarea {
     
     
     .nav_links {
+        display:flex;
         flex-direction: column;
         justify-content:space-between;
+        gap: 10px;
     }
 
     #hero-image {
@@ -432,7 +434,12 @@ input:focus, textarea {
 
 /* Mobile devies 480px down */
 @media screen and (max-width: 480px){
-    /* header logo , nav */
+    /* body header logo , nav */
+    
+    body {
+        overflow-x: hidden;
+    }
+    
     header  div a {
         font-family: Roboto, sans-serif;
         font-size: 30px;
