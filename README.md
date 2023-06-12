@@ -65,7 +65,13 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 <hr>
 
 ![Think Tank navigation bar ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/desktop-navi-bar.png)
+
+<br>
+
 ![Think Tank mobile column bar ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/mobile-column-navi-bar.png)
+
+<br>
+
 ![Think Tank mobile inline bar ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/mobile-inline-navi-bar.png)
 
 <hr>
@@ -133,7 +139,7 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 - Prompt the user to engage with the website on other social medias i.e Facebook , Twitter , Instagram , Twitter.
 
-- When user hovers who icons display a hover effect. 
+- When user hovers on icons , display a hover effect. 
 
 - Follow the color and theme of website in regards to footer styling. 
 
@@ -202,7 +208,7 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 <li> Media
 
-- I used [pexels](https://www.pexels.com/) for my images.
+- I used [Pexels](https://www.pexels.com/) for my images.
 
 <hr>
 
