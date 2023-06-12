@@ -124,7 +124,7 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 - Once user has submitted the form , display a thank you message informing them about the website status
 
-![Eastern section ](assets\images\thank-you-msg.png)
+![Thank you message section ](assets\images\thank-you-msg.png)
 
 <hr>
 
