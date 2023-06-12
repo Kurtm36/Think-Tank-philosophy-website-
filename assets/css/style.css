@@ -96,8 +96,9 @@ li, a, button {
     border-bottom: 1px solid burlywood;
 }
 
-button:hover {
-    background-color: rgba(222, 184, 135, 1);
+.contact-button:hover {
+    color:#f0ebd8;
+    transition: all 0.3s ease 0s;
 }
 
 /* hero img */

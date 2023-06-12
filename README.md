@@ -68,15 +68,15 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 <br>
 
-![Think Tank mobile pyramid bar ](assets\images\mobile-pyramid-bar.png)
+![Think Tank mobile pyramid bar ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/mobile-pyramid-bar.png)
 
 <br>
 
-![Think Tank mobile pyramid responsiveness bar ](assets\images\mobile-pyramid-1.png)
+![Think Tank mobile pyramid responsiveness bar ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/mobile-pyramid-1.png)
 
 <br>
 
-![Think Tank mobile pyramid bar ](assets\images\mobile-inline.png)
+![Think Tank mobile mobile inline bar ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/mobile-inline.png)
 
 <hr>
 
@@ -157,7 +157,7 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 ## Testing
 
-- I tested that the website works in different browsers: Firefox , Opera , Chrome.
+- I tested that the website works in different browsers: Firefox , Opera , Chrome, Edge.
 - I used [Responsive Website Design Tester](https://responsivedesignchecker.com/) to confirm that the website is responsive , looks and fuctions to all standard screen sizes. 
 - Tested all links and can confirm that all of them work and lead where they should lead.
 
