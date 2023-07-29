@@ -32,6 +32,28 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 ## Features
 
+### Design
+
+When designing this website I wanted a calm and soft aesthetic that was easy on the eyes. To achieve this I used a nice blend of soothing colors and I embraced the white space and incorpated it into my design.
+
+- Color pallet
+- ![Color Pallet](assets/images/color_pallet.png)
+
+### Fonts
+ 
+
+- I used Roboto for its legibilty and its aethestic for my header  
+  ![Roboto](assets/images/roboto.png)
+
+- I used Lato for my content on the main page to keep the soft look and feel 
+ ![Lato](assets/images/lato.png)
+  
+- I used Cinzel for its striking visual look to enchance my hero image 
+  ![Cinzel](assets/images/cinzel.png)
+  ![Socrates quote (Wonder is the beginning of wisdow)](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/socrates-quote.png)
+
+--- 
+
 ### Home page
 
 #### Navigation
@@ -66,7 +88,6 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 ---
 
-
 ### Hero Section
 
 - Hero image is clear and non pixelated 
@@ -80,9 +101,6 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 ![Diogenes quote (The foundation of every state is the education of its youth) ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/diogenes-quote.png)
 ![Plato quoute (Ideas are the source of all things) ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/plato-quote.png)
 
-
-
----
 
 ## What is / Western-Eastern Philosophy Section
 
@@ -140,11 +158,7 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 - Display logo on footer.
 
 ![Footer](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/footer.png)
-![Footer with hover effect](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/footer-hoover.png)
-
-
-## Design
-
+![Footer with hover effect](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/footer-hoover.png) 
 
 ## Testing
 
