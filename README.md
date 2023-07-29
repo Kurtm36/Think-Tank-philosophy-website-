@@ -1,55 +1,40 @@
 
-# <strong><italic>Think Tank</italic></strong> (Philosophy Website/ First Project)
+# **Think Tank**(Philosophy Website/ First Project)
 
 
-## [Think Tank](https://kurtm36.github.io/philosophy-website/)   is a entry point website for people who are interested in learning Philosophy.  
+## [Think Tank](https://kurtm36.github.io/Think-Tank-philosophy-website-/)   is a entry point website for people who are interested in learning Philosophy.  
 
 Think Tank is an online platform that aims to explore and delve into the fascinating world of philosophy. This website provides a curated collection of philosophers, their history as well as their teachings related to various philosophical topics.
 
 ![Mobile Responsiveness Image](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/am-i-responsive.png)
-<hr>
+---
 
 ## Technologies used 
-<ul>
-    <li>HTML
-    <li>CSS
-    <li>Google fonts
-    <li>Font Awesome icons
-</UL>
-<hr>
+- HTML
+- CSS
+- Google fonts
+- Font Awesome icons
 
 ## User  Stories
-<ul>
 
-<li>As a first time visitor: I want to understand theme and topic of the website, so I can learn more about the subject.
+- As a first time visitor: I want to understand theme and topic of the website, so I can learn more about the subject.
 
-<br>
+- As a first time visitor: I want to be able to easily navigate through the website, so I can find the information I am looking for.
 
-<li>As a first time visitor: I want to be able to easily navigate through the website, so I can find the information I am looking for.
 
-<br>
+- As a mobile device user: I want the website to be responsive, so I can use my hone or tablet to visit it.
 
-<li>As a mobile device user: I want the website to be responsive, so I can use my phone or tablet to visit it.
 
-<br>
+- Explore Different Philosophers: A first-time user might want to delve into various philosophers and their topics and gain a broad understandi   ng of different schools of thought. They may aim to learn about ethics, metaphysics, epistemology, logic, aesthetics, and more.
 
-<li>Explore Different Philosophers: A first-time user might want to delve into various philosophers and their topics and gain a broad understanding of different schools of thought. They may aim to learn about ethics, metaphysics, epistemology, logic, aesthetics, and more.
 
-<br>
-
-<li>Find Beginner-Friendly Resources: Newcomers to philosophy may seek beginner-friendly resources that provide clear explanations and introductions to fundamental philosophical concepts. They may want to find introductory philosophers to begin with or videos that break down complex ideas into more accessible language</li>
-
-<br>
-
-<hr>
+- Find Beginner-Friendly Resources: Newcomers to philosophy may seek beginner-friendly resources that provide clear explanations and introduc tions to fundamental philosophical concepts. They may want to find introductory philosophers to begin with or videos that break down complex ideas into more accessible language
 
 ## Features
 
+### Home page
 
-
-## Home page
-
-<li> Navigation
+#### Navigation
 
 - Postioned at the top of the page.
 - Contains Logo positioned on the left.
@@ -62,26 +47,27 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 - The links have animated hover effect.
 - The navigation is clear and easy to understand for the user.
 - The navigation bar is responsive and appears on mobile devices. 
-<hr>
+
+---
 
 ![Think Tank navigation bar ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/desktop-navi-bar.png)
 
-<br>
+---
 
 ![Think Tank mobile pyramid bar ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/mobile-pyramid-bar.png)
 
-<br>
+--- 
 
 ![Think Tank mobile pyramid responsiveness bar ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/mobile-pyramid-1.png)
 
-<br>
+--- 
 
 ![Think Tank mobile mobile inline bar ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/mobile-inline.png)
 
-<hr>
+---
 
 
-<li> Hero Section
+### Hero Section
 
 - Hero image is clear and non pixelated 
 
@@ -94,24 +80,27 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 ![Diogenes quote (The foundation of every state is the education of its youth) ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/diogenes-quote.png)
 ![Plato quoute (Ideas are the source of all things) ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/plato-quote.png)
 
-<hr>
+
+
+---
 
 ## What is / Western-Eastern Philosophy Section
 
-<li> Content goals
+### Content goals
 
 - Clear and concise answer as to what the subject is about .
 
 ![What is section ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/what-is-section.png)
 
 -  Video related to the topic at hand. [What is Philosophy (Author:The School of Life)](https://www.youtube.com/watch?v=mIYdx6lDDhg)
-<hr>
+
+---
 
 - Clear and concise explanation as to the differences between Western and Eastern philosophy.
   
 ![Western and Eastern section ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/western-eastern-section.png)
 
-<hr>
+---
 
 ## Philosopher Section 
 
@@ -123,7 +112,7 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 ![Eastern section ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/eastern-philosopher-section.png)
 
 
-<hr>
+---
 
 ## Contact Page
 
@@ -138,7 +127,7 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 ![Thank you message section ](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/thank-you-msg.png)
 
-<hr>
+---
 
 ## Footer 
 
@@ -153,7 +142,9 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 ![Footer](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/footer.png)
 ![Footer with hover effect](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/footer-hoover.png)
 
-<hr>
+
+## Design
+
 
 ## Testing
 
@@ -171,41 +162,50 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 - Unsolved Bugs 
   - None as of yet.
 
-<hr>
 
 ## Validator testing 
+- HTML
+    - I ran my code through [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkurtm36.github.io%2Fphilosophy-website%2F)
 
-<li> HTML
+    ![HTML validator](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/html-checker.png)
 
-- I ran my code through [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkurtm36.github.io%2Fphilosophy-website%2F)
+- CSS
 
-![HTML validator](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/html-checker.png)
+  - I ran my code through [Jigsaw ](https://jigsaw.w3.org/css-validator/) CSS validator and recieved no errors 
 
-<li>CSS
+    ![CSS validator](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/css-checker.png)
 
-- I ran my code through [Jigsaw ](https://jigsaw.w3.org/css-validator/) CSS validator and recieved no errors 
+- Accessibility and Performance
 
-![CSS validator](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/css-checker.png)
+  - I used Lighthouse in chrome devtools to confirm that the website is performing well and is accessible for all users.
 
-<li>Accessibility and Performance
+    ![Lighthouse validator](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/lighthouse.png)
 
-- I used Lighthouse in chrome devtools to confirm that the website is performing well and is accessible for all users.
-
-![Lighthouse validator](https://raw.githubusercontent.com/Kurtm36/philosophy-website/main/assets/images/lighthouse.png)
-
-<hr>
+---
 
 ## Deployment
 
-<li>The website was deployed to GitHub pages and can be accessed by these links:
+The site was deployed to GitHub pages. The steps to deploy are as follows:
 
-- [Think Tank ](https://kurtm36.github.io/philosophy-website/) 
+- In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Main Branch, then click "Save".
 
-- https://kurtm36.github.io/philosophy-website/index.html
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-<hr>
+- The live link can be found here : [Think Tank ](https://kurtm36.github.io/Think-Tank-philosophy-website-/) 
 
-<li> Credits 
+#### Local Deployment
+
+- If you wish to contribute to this project you can clone it !. Follows these steps to clone this repository.
+  
+  - In order to make a local copy of this project. In your IDE Terminal, type the following command to clone my repository:
+
+  - <code>git clone https://github.com/Kurtm36/Think-Tank-philosophy-website-.git</code>
+
+  - Change directory to the project folder.  
+
+
+### Credits 
 
 - I used the code to make social the media footer , links and icons  from the Code Institute Love Running project and modified it to fit my website .
 
@@ -215,6 +215,5 @@ Think Tank is an online platform that aims to explore and delve into the fascina
 
 - I used [Pexels](https://www.pexels.com/) for my images.
 
-<hr>
 
 ## Kurt McGoona 
